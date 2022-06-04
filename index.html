@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Рандомайзер фильмов</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <section id="quote-box" class="container round">
+    <h1 class="shaddowbox well round">Рандомайзер фильмов</h1>
+    <p class="center">Выберите категорию и получите случайный фильм</p>
+    <select class="films" name="films" id="films">
+      <option value="">Выберите категорию фильма</option>
+      <option value="боевик">Боевик</option>
+      <option value="драма">Драма</option>
+      <option value="приключения">Приключения</option>
+      <option value="детектив">Детектив</option>
+      <option value="ужасы">Ужасы</option>
+      <option value="комедия">Комедия</option>
+      <option value="фантастика">Фантастика</option>
+    </select>
+    <div class="msize sizeFblock shaddowbtn round button4">
+
+      <h2 id="Mtitle">Наименование</h2>
+      <p id="text"></p>
+      <div class="flex-container">
+        <h1 style="white-space:pre-wrap;">Оценка: <span id="hod"></span></h1>
+        <img style="vertical-align:middle" id="img1" heigth=250px" width="250px" />
+      </div>
+      <div>Год производства: <strong id="year"></strong></div>
+      <a id="movieLink" class="movieLink" href="">Ссылка на фильм</a>
+      <button class=" round shaddowbtn button4" style="text-align:rigth" id="new-quote">Генерация</button>
+      <script src="script.js"></script>
+  </section>
+</body>
+
+</html>

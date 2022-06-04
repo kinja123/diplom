@@ -1,0 +1,62 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.sizeFblock {
+  font-size: 23px;
+}
+
+body {
+  background-color: #EFEBE9;
+}
+
+.msize {
+  width: 500px;
+  height: auto
+}
+
+.shaddowbox {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px grey;
+  text-align: center;
+}
+
+.shaddowbtn {
+  border: 0.5px solid;
+  padding: 10px;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.6),
+    -3px 4px 12px rgba(0, 0, 0, 0.5),
+    -4px 6px 15px rgba(0, 0, 0, 0.4),
+    -5px 8px 18px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+div {
+  background-color: #EFEBE9;
+  margin: 50px auto auto auto;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.films {
+  display: block;
+  margin: 0 auto;
+}
+
+.button4:hover {
+  background-color: #e7e7e7;
+}
+
+.center {
+  text-align: center;
+}
+
+.movieLink {
+  display: block;
+  margin: 25px 0;
+  text-decoration: underline;
+  color: black;
+}
