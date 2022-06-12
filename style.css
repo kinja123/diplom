@@ -37,6 +37,10 @@ div {
   margin: 50px auto auto auto;
 }
 
+section {
+  padding-bottom: 200px;
+}
+
 .round {
   border-radius: 10px;
 }
